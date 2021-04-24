@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+.of {
+  overflow-x: scroll !important;
+}
+.table th {
+  background: #455a64;
+  color: white;
+}
