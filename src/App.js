@@ -65,32 +65,3 @@ const App = () => {
 };
 
 export default App;
-
-// import React, { useEffect, useState } from "react";
-// import "./styles.css";
-
-// export default function App() {
-//   const [users, setUsers] = useState([]);
-
-//   const getData = async () => {
-//     const apidata = await fetch("https://jsonplaceholder.typicode.com/todos/");
-//     const json = await apidata.json();
-//     console.log(json);
-//     setUsers(json);
-//   };
-
-//   useEffect(() => {
-//     getData();
-//   }, []);
-//   return (
-//     <div className="App">
-//       {users.map((item) => {
-//         return (
-//           <>
-//             <li>{item.title}</li>
-//           </>
-//         );
-//       })}
-//     </div>
-//   );
-// }
